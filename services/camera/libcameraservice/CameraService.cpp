@@ -185,9 +185,6 @@ constexpr int32_t kInvalidDeviceId = -1;
 // Set to keep track of logged service error events.
 static std::set<std::string> sServiceErrorEventSet;
 
-// Current camera package name
-static std::string sCurrPackageName;
-
 CameraService::CameraService(
         std::shared_ptr<CameraServiceProxyWrapper> cameraServiceProxyWrapper,
         std::shared_ptr<AttributionAndPermissionUtils> attributionAndPermissionUtils) :
